@@ -1,0 +1,56 @@
+{
+  "name": "sphina",
+  "description": "Sphina is a social event planning app that helps you plan and organize events.",
+  "license": "AGPL-3.0",
+  "author": {
+    "name": "KilianS3n",
+    "url": "https://gitub.com/KilianS3n"
+  },
+  "repository": {
+    "url": "https://github.com/KilianS3n/sphina",
+    "type": "git",
+    "directory": ""
+  },
+  "readme": "README.md",
+
+  "homepage": "https://sphina.senger.group",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@heroui/react": "2.6.14",
+    "@tailwindcss/vite": "^4.0.8",
+    "@vis.gl/react-maplibre": "^1.0.0-alpha.4",
+    "framer-motion": "^11.18.0",
+    "leaflet": "^1.9.4",
+    "lucide-react": "^0.471.1",
+    "maplibre-gl": "^5.0.1",
+    "motion": "^11.18.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-leaflet": "^5.0.0-rc.2",
+    "react-router": "^7.1.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.18.0",
+    "@tailwindcss/postcss": "^4.0.8",
+    "@types/leaflet": "^1.9.16",
+    "@types/react": "^19.0.7",
+    "@types/react-dom": "^19.0.3",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^9.18.0",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-react-refresh": "^0.4.18",
+    "globals": "^15.14.0",
+    "tailwindcss": "^4.0.8",
+    "typescript": "~5.7.3",
+    "typescript-eslint": "^8.20.0",
+    "vite": "^6.0.7"
+  }
+}
